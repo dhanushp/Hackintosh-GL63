@@ -55,10 +55,32 @@
 				<string>ApIst</string>
 			</dict>
 		</array>
-		<key>SortedOrder</key>
+		<key>#SortedOrder</key>
 		<array>
-			<string>SSDT-Disable-DGPU.aml</string>
-			<string>SSDT-UIAC-ALL.aml</string>
+			<string>SSDT.aml</string>
+			<string>SSDT-0.aml</string>
+			<string>SSDT-1.aml</string>
+			<string>SSDT-2.aml</string>
+			<string>SSDT-3.aml</string>
+			<string>SSDT-4.aml</string>
+			<string>SSDT-5.aml</string>
+			<string>SSDT-6.aml</string>
+			<string>SSDT-7.aml</string>
+			<string>SSDT-8.aml</string>
+			<string>SSDT-9.aml</string>
+			<string>SSDT-10.aml</string>
+			<string>SSDT-11.aml</string>
+			<string>SSDT-12.aml</string>
+			<string>SSDT-13.aml</string>
+			<string>SSDT-14.aml</string>
+			<string>SSDT-15.aml</string>
+			<string>SSDT-16.aml</string>
+			<string>SSDT-17.aml</string>
+			<string>SSDT-18.aml</string>
+			<string>SSDT-19.aml</string>
+			<string>SSDT-XOSI.aml</string>
+			<string>SSDT-LPC.aml</string>
+			<string>SSDT-UIAC.aml</string>
 			<string>SSDT-PNLF.aml</string>
 		</array>
 		<key>AutoMerge</key>
@@ -345,7 +367,7 @@
 				<string>layout-id=3</string>
 				<key>Device</key>
 				<string>HDA</string>
-				<key>Key</key>	
+				<key>Key</key>
 				<string>layout-id</string>
 				<key>Value</key>
 				<data>
@@ -362,13 +384,6 @@
 				</data>
 			</dict>
 		</array>
-		<key>Audio</key>
-		<dict>
-			<key>Inject</key>
-			<string>Detect</string>
-			<key>ResetHDA</key>
-			<true/>
-		</dict>
 		<key>FakeID</key>
 		<dict>
 			<key>#Kaby Lake-Comment</key>
@@ -519,10 +534,6 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,GfxYTile</key>
-				<data>
-				AQAAAA==
-				</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				CQClPg==
@@ -536,14 +547,6 @@
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>dpcd-max-link-rate</key>
-				<data>
-				FAAAAA==
-				</data>
-				<key>enable-dpcd-max-link-rate-fix</key>
 				<data>
 				AQAAAA==
 				</data>
@@ -579,25 +582,17 @@
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-con2-index</key>
+				<key>framebuffer-con2-pipe</key>
 				<data>
-				/////w==
+				EgAAAA==
 				</data>
 				<key>framebuffer-con2-type</key>
 				<data>
 				AAgAAA==
 				</data>
-				<key>framebuffer-fbmem</key>
-				<data>
-				AACQAA==
-				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
-				</data>
-				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
 				</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>
@@ -809,7 +804,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>DVMT for AppleIntelSKLGraphicsFramebuffer (Credits DalianSky) for 10.14.x</string>
+				<string>DVMT for AppleIntelSKLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -829,7 +824,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>DVMT for AppleIntelKBLGraphicsFramebuffer (Credits DalianSky) for 10.14.x</string>
+				<string>DVMT for AppleIntelKBLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -849,7 +844,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>DVMT for AppleIntelCFLGraphicsFramebuffer (Credits DalianSky) for 10.14.x</string>
+				<string>DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -869,7 +864,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>DVMT for AppleIntelCFLGraphicsFramebuffer (Credits DalianSky) for 10.14.x</string>
+				<string>DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -1117,46 +1112,6 @@
 				<key>Replace</key>
 				<data>
 				AAAAAAAAAAAAAAA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB Port limit patch #1/2 10.15.x (credit DalianSky)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				g/sPDw==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.15.x</string>
-				<key>Name</key>
-				<string>com.apple.iokit.IOUSBHostFamily</string>
-				<key>Replace</key>
-				<data>
-				g/s/Dw==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB Port limit patch #2/2 10.15.x (credit DalianSky)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				g/kPDw==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.15.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				g/k/Dw==
 				</data>
 			</dict>
 		</array>
