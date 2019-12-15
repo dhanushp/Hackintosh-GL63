@@ -36,13 +36,34 @@ Now Click on <b>Flash</b> and wait for it to flash the drive.
 ![altt text](https://i.imgur.com/pvih4yp.png)
 
 ##### Step 6 :
-![altt text](https://zupimages.net/up/19/25/skb2.png)
+Open MiniTool partiton wizard and Right-Click on the EFI.
+
+![altt text](https://i.imgur.com/JFs1zeN.jpg)
 
 ##### Step 7 :
-![altt text](https://zupimages.net/up/19/25/skb2.png)
+Select Change letter and choose assign A letter to the selected EFI volume and Click on the Apply changes present on the top left corner.
+
+![altt text](https://i.imgur.com/JFs1zeN.jpg)
 
 ##### Step 8 :
-![altt text](https://zupimages.net/up/19/25/skb2.png)
+Once the changes have been applied, you would be able to see the volume in your file explorer.
+
+![altt text](https://i.imgur.com/R6SwYZi.png)
 
 ##### Step 9 :
-![altt text](https://zupimages.net/up/19/25/skb2.png)
+Extract the Explorer++ and run it as <b>Administrator</b>.
+
+![altt text](https://i.imgur.com/Tse5uTH.png)
+
+##### Step 10 :
+Browse to the EFI folder on the pendrive using Explorer++  and delete the Existing files.
+
+![altt text](https://i.imgur.com/dbpYaHm.png)
+
+##### Step 11 :
+Now copy the files from [Repository](https://github.com/ResponsiveUser/Hackintosh-GL63) and paste inside the EFI folder present in the USB drive.
+
+![altt text](https://i.imgur.com/NvM0x1D.png)
+
+##### Step 12 :
+Once all the above steps are done, Restart your device and boot from USB drive. You will be entering Clover and Select <b>Install macOS Catalina</b> to install Catalina in your device. 
