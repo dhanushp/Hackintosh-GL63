@@ -20,3 +20,6 @@
 ### Screenshots
 ![altt text](https://zupimages.net/up/19/25/skb2.png)
 ![alt text](https://zupimages.net/up/19/25/hty8.png)
+
+### Having trouble with Installation?
+Follow this guide for [Instruction](Instruction.md).

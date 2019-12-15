@@ -1,0 +1,39 @@
+# Instruction
+Before proceeding with the installation, Make sure you have downloaded the following 
+
+### Requirements
+* MacOs DMG file. Download it from [here](https://drive.google.com/open?id=1bxaEpsYhN6FKiUQB7-9_xlaMZbgd2IPn)
+* EFI file from the [Repo](https://github.com/ResponsiveUser/Hackintosh-GL63)
+* [balenaEtcher](https://www.balena.io/etcher/) for flashing MacOS DMG into usb
+* [Explorer++](https://explorerplusplus.com/download) for making changes in default EFI partition
+* [MiniTool Partition Wizard](https://www.partitionwizard.com/free-partition-manager.html)
+
+<b>Once all the required files are downloaded, Follow the below instruction</b>
+
+##### Step 1 :
+Open balenaEtcher
+![altt text](https://i.imgur.com/IFw9isE.png?1))
+
+##### Step 2 :
+![altt text](https://zupimages.net/up/19/25/skb2.png)
+
+##### Step 3 :
+![altt text](https://zupimages.net/up/19/25/skb2.png)
+
+##### Step 4 :
+![altt text](https://zupimages.net/up/19/25/skb2.png)
+
+##### Step 5 :
+![altt text](https://zupimages.net/up/19/25/skb2.png)
+
+##### Step 6 :
+![altt text](https://zupimages.net/up/19/25/skb2.png)
+
+##### Step 7 :
+![altt text](https://zupimages.net/up/19/25/skb2.png)
+
+##### Step 8 :
+![altt text](https://zupimages.net/up/19/25/skb2.png)
+
+##### Step 9 :
+![altt text](https://zupimages.net/up/19/25/skb2.png)
