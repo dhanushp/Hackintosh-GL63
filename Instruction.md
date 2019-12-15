@@ -11,11 +11,14 @@ Before proceeding with the installation, Make sure you have downloaded the follo
 <b>Once all the required files are downloaded, Follow the below instruction</b>
 
 ##### Step 1 :
-Open balenaEtcher
-![altt text](https://i.imgur.com/IFw9isE.png?1))
+Open balenaEtcher and click on browse
+
+![altt text](https://i.imgur.com/IFw9isE.png?1)
 
 ##### Step 2 :
-![altt text](https://zupimages.net/up/19/25/skb2.png)
+Browse to the folder where you have placed the MacOS DMG file and Select it
+
+![altt text](https://i.imgur.com/di4IlZZ.png)
 
 ##### Step 3 :
 ![altt text](https://zupimages.net/up/19/25/skb2.png)
