@@ -41,9 +41,9 @@ Open MiniTool partiton wizard and Right-Click on the EFI.
 ![altt text](https://i.imgur.com/JFs1zeN.jpg)
 
 ##### Step 7 :
-Select Change letter and choose assign A letter to the selected EFI volume and Click on the Apply changes present on the top left corner.
+Select Change letter and choose assign a letter to the selected EFI volume and Click on the Apply changes present on the top left corner.
 
-![altt text](https://i.imgur.com/JFs1zeN.jpg)
+![altt text](https://i.imgur.com/6hUFdOX.png)
 
 ##### Step 8 :
 Once the changes have been applied, you would be able to see the volume in your file explorer.
@@ -56,7 +56,7 @@ Extract the Explorer++ and run it as <b>Administrator</b>.
 ![altt text](https://i.imgur.com/Tse5uTH.png)
 
 ##### Step 10 :
-Browse to the EFI folder on the pendrive using Explorer++  and delete the Existing files.
+Browse to the EFI folder on the USB using Explorer++  and delete the Existing files.
 
 ![altt text](https://i.imgur.com/dbpYaHm.png)
 
